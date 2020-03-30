@@ -24,6 +24,7 @@ int main(){
         if (max > 0) {
                 printf("%s", longest);
         }
+        return 0;
 }
 
 
@@ -37,9 +38,10 @@ int getline(void){
                         line[i] = c;
                         ++i;
                 }
-                line[i] = '\0';
-                return i;
+
         }
+        line[i] = '\0';
+        return i;
 }
 
 
