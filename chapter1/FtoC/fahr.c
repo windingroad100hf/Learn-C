@@ -14,5 +14,3 @@ int main()
       int d=convert(a);
       printf("%d Farenheit is %d in Celsius\n", a, d);
 }
-
-
